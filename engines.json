@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Google",
+        "action": "https://www.google.com/search?q=",
+        "image": "https://img.icons8.com/color/344/google-logo.png"
+    },
+    {
+        "name": "DuckDuckGo",
+        "action": "https://www.google.com/search?q=",
+        "image": "https://img.icons8.com/color/344/google-logo.png"
+    },
+    {
+        "name": "Wikipedia",
+        "action": "https://www.google.com/search?q=",
+        "image": "https://img.icons8.com/color/344/google-logo.png"
+    },
+    {
+        "name": "Arch Wiki",
+        "action": "https://www.google.com/search?q=",
+        "image": "https://img.icons8.com/color/344/google-logo.png"
+    }
+]
