@@ -29,17 +29,29 @@ body {background-color: #ccd9e6;}
 }
 
 .central-box {
-    background-color: rgba(104, 150, 122, 0.6);
+    background-color: transparent;
     width: 35%;
     height: auto;
     text-align: center;
     flex-direction: column;
     box-shadow: 0 0 3px #000 inset;
 }
-.central-box h1 {
-    margin: 1em 0 0.5em;
-    font-size: 2.5em;
+
+.logo-area {
+	flex-direction: column;
+}
+.logo-area #id_logo_title {
+    margin: 0.2em 0 0.5em;
     text-decoration: underline;
+}
+.logo-area #id_logo_img {
+	width: 148px;
+}
+.logo-area #id_logo_img.no-title {
+	margin-bottom: 2em;
+}
+.logo-area:first-child {
+	margin-top: 2em;
 }
 
 .search-area {
@@ -65,7 +77,7 @@ body {background-color: #ccd9e6;}
     background-color: #7382de;
 }
 
-.engines-area button{
+.links-area button{
     border: 1px solid black;
 }
 
@@ -75,20 +87,17 @@ body {background-color: #ccd9e6;}
     padding: 0 1em 0.5em;
 }
 
-.engines-area button {
+.links-area .links-button {
     width: 48px;
     height: 48px;
     box-shadow: 0 0 2px #000;
     background-color: #bcc2e8;
 }
-.engines-area button img {
+.links-area .links-button:hover {
+    background-image: linear-gradient(125deg, #bcc2e8, #daddf0);
+    cursor: pointer;
+}
+.links-area .links-button .links-img {
     width: 28px;
     height: 28px;
-}
-
-.engines-area button:hover:not(.engines-area button.selected) {
-    background-image: linear-gradient(125deg, #bcc2e8, #daddf0)
-}
-.engines-area button.selected {
-    background-color: green;
 }
